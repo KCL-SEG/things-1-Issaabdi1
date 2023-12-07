@@ -8,7 +8,7 @@ class Thing(models.Model):
         blank=False,
         max_length=30,
     )
-    description = models.TextField(
+    description = models.CharField(
         unique=False,
         blank=True,
         max_length=120,
